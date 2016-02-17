@@ -186,28 +186,7 @@ namespace ClassLibrary1
             Alignment al = this.CreateAlign(test); // 만들어논 메소드를 이용해서 만들어진 평면선형 클래스의 변수값을 가져온다.
 
                 int temp=0;
-                /*
-            foreach(AlignmentEntity myAe in al.Entities)
-                {
-                    temp++;
-                    string msg = "";
-                    
- 
-                    switch(myAe.EntityType)
-                    {
-                        case AlignmentEntityType.Arc:
-                            AlignmentArc myArc = myAe as AlignmentArc;
-                            tmp1 = string.Format("entity{0} is an Arc, Length: {1}\n", temp, myArc.Length);
-                            break;
-                        case AlignmentEntityType.Spiral:
-                            AlignmentSpiral mySpiral = myAe as AlignmentSpiral;
-                            tmp2 = String.Format("Entity{0} is a Spiral, length: {1}\n", temp, mySpiral.Length);
-                            break;
-                        default:
-                            tmp3 = String.Format("Entity{0} is not a spiral or arc.\n", temp);
-                            break;
-                    }
-                }*/
+
                 temp = 0;
                 foreach(AlignmentEntity myAe in al.Entities) //  일반 라인과 호의 순서가 맞진 않지만 정보는 다 맞음
                 {                                                   ///추후에 정교한 작업 필요할듯
