@@ -38,7 +38,7 @@ namespace ClassLibrary1
     public class Class1 : Form1  // 오늘 회의 필요한 서류가 하나라면 그 서류만 달라고 마누라에게 전화를 하고..
     {                               // 가방에 필요한 서류가 이것 저것 많을 땐 가방채로 메고 출근을 해야할듯... 너무 많이 필요해
         Form1 dlg;
-       // Alignment currAl = new Alignment();
+       // Alignment currAl = new Alignment(); // 주석처리함
 
         //public static event StrAddHandler ItemStr;  // 테스트용
 
